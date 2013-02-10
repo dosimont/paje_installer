@@ -8,11 +8,11 @@ Script which allows to install Pajé visualization tool and its dependencies (GN
 
 - If your OS is __Fedora__:
 
-       $ ./paje_installer.sh -fedoralibs
+        $ ./paje_installer.sh -fedoralibs
 
 - If your OS is __Ubuntu__:
 
-       $ ./paje_installer.sh -ubuntulibs
+        $ ./paje_installer.sh -ubuntulibs
 
 ###Step 2) Download and install GNUstep_
 
