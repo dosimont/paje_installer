@@ -85,12 +85,12 @@ exit 0
 fi
 if [ $fedoralibs = 1 ]
 then
-sudo yum install libxml2-devel libxslt-devel openssl-devel libX11-devel libXext-devel libXt-devel libjpeg*devel libtiff-devel libpng-devel libffi-devel graphviz-devel libmatheval-devel gsl-devel cairo-devel libXfixes-devel libXcursor-devel libXmu-devel libXft-devel libicu-devel clang 
+sudo yum install libxml2-devel libxslt-devel openssl-devel libX11-devel libXext-devel libXt-devel libjpeg*devel libtiff-devel libpng-devel libffi-devel graphviz-devel libmatheval-devel gsl-devel cairo-devel libXfixes-devel libXcursor-devel libXmu-devel libXft-devel libicu-devel gnutls-devel clang 
 sudo yum groupinstall "Development Tools"
 fi
 if [ $ubuntulibs = 1 ]
 then
-sudo apt-get install libxml2-dev libxslt1-dev libssl-dev libx11-dev libxext-dev libxt-dev libjpeg62-dev libtiff4-dev libpng12-dev libffi-dev gobjc build-essential libgraphviz-dev libmatheval1-dev libgsl0-dev libcairo2-dev libpng12-dev libxfixes-dev libxcursor-dev libxmu-dev libxft-dev libicu-dev clang 
+sudo apt-get install libxml2-dev libxslt1-dev libssl-dev libx11-dev libxext-dev libxt-dev libjpeg62-dev libtiff4-dev libpng12-dev libffi-dev gobjc build-essential libgraphviz-dev libmatheval1-dev libgsl0-dev libcairo2-dev libpng12-dev libxfixes-dev libxcursor-dev libxmu-dev libxft-dev libicu-dev libgnutls-dev clang 
 fi
 export CC=clang
 if [ ! -d $dir ]
