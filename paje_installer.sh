@@ -67,12 +67,12 @@ if [ $remake = 1 ]
 then
 . /usr/GNUstep/System/Library/Makefiles/GNUstep.sh
 export LANG=C
-if [ $dir != -d ]
+if [ ! -d $dir ]
 then
 exit 1
 fi
 cd $dir
-if [ Paje != -d ]
+if [ ! -d Pajé ]
 then
 exit 2
 fi
@@ -93,7 +93,7 @@ then
 sudo apt-get install libxml2-dev libxslt1-dev libssl-dev libx11-dev libxext-dev libxt-dev libjpeg62-dev libtiff4-dev libpng12-dev libffi-dev gobjc build-essential libgraphviz-dev libmatheval1-dev libgsl0-dev libcairo2-dev libpng12-dev libxfixes-dev libxcursor-dev libxmu-dev libxft-dev libicu-dev clang 
 fi
 export CC=clang
-if [ $dir != -d ]
+if [ ! -d $dir ]
 then
 mkdir $dir
 fi
