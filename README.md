@@ -35,5 +35,9 @@ Script which allows to install Pajé visualization tool and its dependencies (GN
 add to your __.bash_profile__ the following line:
 
     $ source /usr/GNUstep/System/Library/Makefiles/GNUstep.sh
+    
+###Launch Pajé : 
 
+    $ . /usr/GNUstep/System/Library/Makefiles/GNUstep.sh
+    $ openapp Paje.app
 
