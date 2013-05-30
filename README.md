@@ -1,7 +1,7 @@
 Paje Installer
 ==============
 
-Script which allows to install Pajé visualization tool and its dependencies (GNUstep and necessary libraries)
+Script that enables to install Pajé visualization tool and its dependencies (GNUstep and necessary libraries)
 
 
 ###Step 1) Install necessary libraries
